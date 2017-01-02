@@ -1,0 +1,12 @@
+@define-mixin icon $name, $paddingLeft {
+  padding-left: $paddingLeft;
+
+  &::after {
+    content: '';
+    background-url: url(icon/$(name).png);
+  }
+}
+
+.search {
+  @mixin icon search, 14px;
+}

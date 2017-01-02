@@ -1,0 +1,8 @@
+.conditional {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else  {
+    background: red;
+  }
+}

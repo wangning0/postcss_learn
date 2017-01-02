@@ -1,0 +1,7 @@
+@define-extend basic {
+  background: green;
+}
+
+.extend {
+  @extend basic;
+}

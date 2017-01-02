@@ -1,0 +1,17 @@
+.parent {
+  background: white;
+
+  .child {
+    background: blue;
+
+    .grandson {
+      background: red;
+    }
+
+    @at-root {
+      .child_1 {
+        background: black;
+      }
+    }
+  }
+}

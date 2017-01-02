@@ -1,0 +1,7 @@
+$blue: #056ef0;
+$column: 200px;
+
+.menu {
+  color: $blue;
+  width: $column;
+}

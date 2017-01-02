@@ -1,0 +1,7 @@
+.search {
+  padding-left: 14px;
+}
+.search::after {
+  content: '';
+  background-url: url(icon/search.png);
+}

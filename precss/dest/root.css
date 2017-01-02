@@ -1,0 +1,12 @@
+.parent {
+  background: white;
+}
+.child_1 {
+  background: black;
+}
+.parent .child {
+  background: blue;
+}
+.parent .child .grandson {
+  background: red;
+}

@@ -1,0 +1,12 @@
+@for $i from 1 to 3 {
+  .b-$i {
+    width: $(i)px;
+  }
+}
+
+
+@each $icon in (foo, bar, baz) {
+  .icon-$(icon) {
+    background: url('icons/$(icon).png');
+  }
+}
